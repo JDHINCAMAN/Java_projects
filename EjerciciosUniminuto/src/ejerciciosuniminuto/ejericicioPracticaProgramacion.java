@@ -33,7 +33,7 @@ public class ejericicioPracticaProgramacion {
             contador+= 1;
             System.out.print(usuario+" Por favor digite su contraseña: ");
             contraseña = ingresar.nextInt();
-            if  (contador >= 3 ){
+            if  (contador > 2 ){
                 System.out.println("ACCESO BLOQUEADO");
                 break; 
             }      
