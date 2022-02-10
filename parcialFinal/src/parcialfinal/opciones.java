@@ -76,7 +76,7 @@ public class opciones {
                             + "Nombre de producto: " + nombreProductos[m] + "\n"
                             + "Cantidad: " + auxCantidad.length + "\n"
                             + "Costo del producto: " + costoProducto + "\n"
-                            + "IVA del 19%: " + 0 + "\n"
+                            + "IVA del 19%: " + iva + "\n"
                             + "Descuento: " + 0 + "\n"
                             + "Valor total a pagar: " + (costoProducto*auxCantidad.length));
                         break;

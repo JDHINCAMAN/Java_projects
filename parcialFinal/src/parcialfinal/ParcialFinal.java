@@ -4,10 +4,14 @@ import javax.swing.JOptionPane;
 
 public class ParcialFinal {
     public static void main(String[] args) {
+        // objeto que contiene las funciones
         opciones op = new opciones();
+        
+        // Variables
         int contador = 0;
         String opcion;
         String contraseña = "123456";
+        
         JOptionPane.showMessageDialog(null, "               ▐▓█▀▀▀▀▀▀▀▀▀█▓▌░▄▄▄▄▄░\n" +
                                             "               ▐▓█░░▀░░▀▄░░█▓▌░█▄▄▄█░\n" +
                                             "               ▐▓█░░▄░░▄▀░░█▓▌░█▄▄▄█░\n" +
